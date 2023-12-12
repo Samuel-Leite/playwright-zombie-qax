@@ -1,0 +1,83 @@
+{
+    "create": {
+      "title": "Guerra Mundial Z",
+      "overview": "Um ex-investigador da ONU é chamado para ajudar a conter uma pandemia global de zumbis que ameaça dizimar a população mundial.",
+      "company": "Paramount Pictures",
+      "release_year": 2013,
+      "featured": true,
+      "cover": "/images/guerra_mundial_z.png"
+    },
+    "resident_evil_o_hospede_maldito": {
+      "title": "Resident Evil: O Hóspede Maldito",
+      "overview": "Alice luta contra a corporação maligna Umbrella, enquanto zumbis e monstros mutantes ameaçam a humanidade.",
+      "company": "Screen Gems",
+      "release_year": 2002,
+      "featured": false,
+      "cover": "/images/resident_evil.png"
+    },
+    "the_walking_dead": {
+      "title": "The Walking Dead",
+      "overview": "Sobreviventes lutam para se manterem vivos em um mundo pós-apocalíptico dominado por zumbis.",
+      "company": "AMC",
+      "release_year": 2010,
+      "featured": true,
+      "cover": "/images/the_walking_dead.png"
+    },
+    "madrugada_dos_mortos": {
+      "title": "Madrugada dos Mortos",
+      "overview": "Um grupo de sobreviventes tenta permanecer seguro em um shopping enquanto o mundo exterior é dominado por zumbis.",
+      "company": "Universal Pictures",
+      "release_year": 2004,
+      "featured": false,
+      "cover": "/images/madrugada_dos_mortos.png"
+    },
+    "eu_sou_a_lenda": {
+      "title": "Eu Sou a Lenda",
+      "overview": "O último homem na Terra enfrenta criaturas mutantes resultantes de uma praga global.",
+      "company": "Warner Bros. Pictures",
+      "release_year": 2007,
+      "featured": true,
+      "cover": "/images/eu_sou_a_lenda.png"
+    },
+    "shaun_of_the_dead": {
+      "title": "Shaun of the Dead",
+      "overview": "Comédia que segue um homem tentando lidar com um apocalipse zumbi enquanto lida com problemas pessoais.",
+      "company": "Universal Pictures",
+      "release_year": 2004,
+      "featured": false,
+      "cover": "/images/shaun_of_the_dead.png"
+    },
+    "exterminio": {
+      "title": "Extermínio",
+      "overview": "Um vírus transforma a população em selvagens sedentos por sangue, e um grupo tenta sobreviver em Londres.",
+      "company": "Fox Searchlight Pictures",
+      "release_year": 2002,
+      "featured": true,
+      "cover": "/images/extermínio.png"
+    },
+    "zumbilandia": {
+      "title": "Zumbilândia",
+      "overview": "Um grupo eclético de sobreviventes se une para sobreviver a um apocalipse zumbi.",
+      "company": "Columbia Pictures",
+      "release_year": 2009,
+      "featured": false,
+      "cover": "/images/zumbilandia.png"
+    },
+    "a_noite_dos_mortos_vivos": {
+      "title": "A Noite dos Mortos-Vivos",
+      "overview": "Um grupo de pessoas fica preso em uma casa enquanto zumbis famintos por carne humana rondam do lado de fora.",
+      "company": "Continental Distributing",
+      "release_year": 1968,
+      "featured": true,
+      "cover": "/images/a_noite_dos_mortos_vivos.png"
+    },
+    "train_to_busan": {
+      "title": "Train to Busan",
+      "overview": "Passageiros em um trem expresso tentam sobreviver a um surto zumbi que se espalha rapidamente pela Coreia do Sul.",
+      "company": "Next Entertainment World",
+      "release_year": 2016,
+      "featured": false,
+      "cover": "/images/train_to_busan.png"
+    }
+  }
+  
