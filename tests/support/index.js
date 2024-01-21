@@ -19,11 +19,12 @@ const test = base.extend({
     await use(context);
   },
   request: async ({ request }, use) => {
-    const context = request
+    const context = request;
+    context["api"] = new Api(request);
 
-    context['api'] = new Api(request)
+    await context['api'].setToken();
 
-    await use(context)
+    await use(context);
   },
 });
 
