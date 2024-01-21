@@ -15,6 +15,14 @@
       "featured": false,
       "cover": "/covers/movies/resident-evil.jpg"
     },
+    "to_remove": {
+      "title": "A Noite dos Mortos-Vivos",
+      "overview": "Um grupo de pessoas fica preso em uma casa enquanto zumbis famintos por carne humana rondam do lado de fora.",
+      "company": "Universal Pictures",
+      "release_year": 1968,
+      "featured": true,
+      "cover": "/covers/movies/mortos-vivos.jpg"
+    },
     "the_walking_dead": {
       "title": "The Walking Dead",
       "overview": "Sobreviventes lutam para se manterem vivos em um mundo pós-apocalíptico dominado por zumbis.",
@@ -62,14 +70,6 @@
       "release_year": 2009,
       "featured": false,
       "cover": "/images/zumbilandia.png"
-    },
-    "a_noite_dos_mortos_vivos": {
-      "title": "A Noite dos Mortos-Vivos",
-      "overview": "Um grupo de pessoas fica preso em uma casa enquanto zumbis famintos por carne humana rondam do lado de fora.",
-      "company": "Continental Distributing",
-      "release_year": 1968,
-      "featured": true,
-      "cover": "/images/a_noite_dos_mortos_vivos.png"
     },
     "train_to_busan": {
       "title": "Train to Busan",

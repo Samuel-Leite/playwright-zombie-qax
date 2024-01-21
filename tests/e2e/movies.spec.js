@@ -16,6 +16,15 @@ test("Validar cadastro de um novo filme", async ({ page }) => {
   await page.popup.haveText(`O filme '${movie.title}' foi adicionado ao catálogo.`);
 });
 
+test("Validar exclusão de um filme", async ({ page, request }) => {
+  const movie = data.to_remove;
+  await request.api.postMovie(movie)
+
+  await page.login.do("admin@zombieplus.com", "pwd123", "Admin");
+  await page.movies.remove(movie.title)
+  await page.popup.haveText('Filme removido com sucesso.');  
+});
+
 test("Validar cadastro de duplicidade de título do filme", async ({ page, request }) => {
   const movie = data.duplicate;
   await request.api.postMovie(movie)
