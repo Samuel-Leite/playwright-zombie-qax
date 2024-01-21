@@ -7,13 +7,13 @@
       "featured": true,
       "cover": "/covers/movies/wwz.png"
     },
-    "resident_evil_o_hospede_maldito": {
+    "duplicate": {
       "title": "Resident Evil: O Hóspede Maldito",
       "overview": "Alice luta contra a corporação maligna Umbrella, enquanto zumbis e monstros mutantes ameaçam a humanidade.",
-      "company": "Screen Gems",
+      "company": "Columbia Pictures",
       "release_year": 2002,
       "featured": false,
-      "cover": "/images/resident_evil.png"
+      "cover": "/covers/movies/resident-evil.jpg"
     },
     "the_walking_dead": {
       "title": "The Walking Dead",
