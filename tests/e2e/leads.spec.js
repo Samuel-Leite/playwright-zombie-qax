@@ -10,32 +10,32 @@ test("Cadastro do Lead na fila de espera com sucesso", async ({ page }) => {
   await page.leads.submitLeadForm(leadName, leadEmail);
 
   const message =
-    "Agradecemos por compartilhar seus dados conosco. Em breve, nossa equipe entrará em contato!";
+    "Agradecemos por compartilhar seus dados conosco. Em breve, nossa equipe entrará em contato.";
 
-  await page.toast.containText(message);
+  await page.popup.haveText(message);
 });
 
 test("Não deve cadastrar email com duplicidade", async ({ page, request }) => {
   const leadName = faker.person.fullName();
   const leadEmail = faker.internet.email();
 
-  const newLead = await request.post('http://localhost:3333/leads', {
+  const newLead = await request.post("http://localhost:3333/leads", {
     data: {
       name: leadName,
-      email: leadEmail
-    }
-  })
+      email: leadEmail,
+    },
+  });
 
-  expect(newLead.ok()).toBeTruthy()
+  expect(newLead.ok()).toBeTruthy();
 
   await page.leads.visit();
   await page.leads.openLeadModal();
   await page.leads.submitLeadForm(leadName, leadEmail);
 
   const message =
-    "O endereço de e-mail fornecido já está registrado em nossa fila de espera.";
+    "Verificamos que o endereço de e-mail fornecido já consta em nossa lista de espera. Isso significa que você está um passo mais perto de aproveitar nossos serviços.";
 
-  await page.toast.containText(message);
+  await page.popup.haveText(message);
 });
 
 test("Não deve cadastrar com e-mail incorreto", async ({ page }) => {
